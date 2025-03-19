@@ -79,5 +79,6 @@ group :test do
   # Use sqlite3 as the database for Active Record
 end
 group :production do
+  bundle lock --add-platform x86_64-linux
   gem "pg"
 end
