@@ -230,7 +230,7 @@ GEM
 
 PLATFORMS
   aarch64-linux
-  platform x86_64-linux
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
